@@ -1,6 +1,7 @@
-<h2>Transactions</h2>
-<ul>
+<div class="transactions">
   @for(transaction of transactions; track transaction.id) {
-  <li>{{ transaction.category }} - {{ transaction.amount | currency }}</li>
+  <app-transaction [transaction]="transaction" />
+  }@empty {
+  <h3>No transactions!</h3>
   }
-</ul>
+</div>
