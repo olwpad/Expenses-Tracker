@@ -1,0 +1,18 @@
+{
+  "transactions": [
+    {
+      "id": "3",
+      "type": "expense",
+      "amount": 60,
+      "category": "entertainment",
+      "date": "2023-11-27"
+    },
+    {
+      "id": "4",
+      "type": "income",
+      "amount": 500,
+      "category": "payroll",
+      "date": "2023-11-28"
+    }
+  ]
+}
